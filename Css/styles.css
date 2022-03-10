@@ -1,0 +1,56 @@
+*,*::before,*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    height: 100vh;
+    background-color: #06a4c0;
+    font-size: 16px;
+    display: grid;
+    place-items: center;
+}
+
+.container{
+    width: 40rem;
+    height: 40rem;
+    background-color:#fff ;
+    border-radius: .5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container-contador{
+    width: 100%;
+}
+
+.contador{
+    font-size: 15rem;
+    display: grid;
+    place-items: center;
+}
+
+.btns{
+   width: 100%;
+   display: flex;
+   justify-content:center;
+   gap: 4rem;
+   padding: 2rem;
+}
+
+.aumentar,.disminuir{
+    border: none;
+    width: 15rem;
+    height: 6rem;
+    background-color: #0751a5;
+    color: #fff;
+    font-size: 3.5rem;
+    cursor: pointer;
+}
